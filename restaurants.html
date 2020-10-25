@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUZ2s5lgdCzAuLqjLB-i5pw3B7ZO6yUrQ&libraries=places&callback=getRestaurant"></script>
+  </head>
+
+  
+  <body>
+
+    <div class="menu-button" >
+    <div class="menu-button_burger">
+    </div>
+  </div>
+
+  <nav>
+    <ul class="nav" id="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="">Randomizer</a></li>
+      <li><a href="team.html">The Team</a></li>
+    </ul>
+  </nav>
+
+    <div class="heading"> Restaurant <span style="color: #2179fd"> Randomizer</span></div>
+    <br>
+
+    
+    <div>
+      <div id = "map"></div>
+
+      <div class = "leftside">
+        <p id = "resName" class="blue_text"></p>
+        <p id = "resRating" class="text"></p>
+        <p id = "resAddress" class="text"></p>
+        <p id = "resPriceLvl" class="text"></p>
+        <br>
+
+        <div class="blue_text"> Reviews: </div>
+        <p id = "resReviews" class="reviews"></p>
+      </div>
+
+    </div>
+    
+    <script src = "../script.js"></script>
+  </body>
+</html>
